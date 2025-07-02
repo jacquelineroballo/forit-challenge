@@ -1,6 +1,8 @@
 # 📋 Administrador de Tareas
 
 <div align="center">
+![image](https://github.com/user-attachments/assets/774704cd-04d6-4784-b7fd-a0158eff4be1)
+![image](https://github.com/user-attachments/assets/e9ae7829-c0c4-4e9a-9e1f-1c50e2dd8d01)
 
 ![Estado del Proyecto](https://img.shields.io/badge/estado-activo-brightgreen)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
