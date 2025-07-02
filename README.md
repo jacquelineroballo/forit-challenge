@@ -1,15 +1,14 @@
 # 📋 Administrador de Tareas
-![image](https://github.com/user-attachments/assets/6717e59b-59a4-4fde-913a-2377b8301094)
-![image](https://github.com/user-attachments/assets/e9ae7829-c0c4-4e9a-9e1f-1c50e2dd8d01)
-<div align="center">
 
+<div align="center">
 ![Estado del Proyecto](https://img.shields.io/badge/estado-activo-brightgreen)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
 ![Versión](https://img.shields.io/badge/versión-1.0.0-orange)
-
 </div>
 
 Aplicación full-stack para gestión de tareas construida con React y Node.js.
+![image](https://github.com/user-attachments/assets/6717e59b-59a4-4fde-913a-2377b8301094)
+![image](https://github.com/user-attachments/assets/e9ae7829-c0c4-4e9a-9e1f-1c50e2dd8d01)
 
 ## ✨ Características
 
