@@ -1,101 +1,128 @@
-# Task Management Application
+# 📋 Administrador de Tareas
 
-A full-stack task management application built with React, Node.js, and Express.
+<div align="center">
 
-## Features
+![Estado del Proyecto](https://img.shields.io/badge/estado-activo-brightgreen)
+![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
+![Versión](https://img.shields.io/badge/versión-1.0.0-orange)
 
-- Create, read, update, and delete tasks
-- Task status management
-- Responsive design
-- Modern UI/UX
+</div>
 
-## Project Structure
+Aplicación full-stack para gestión de tareas construida con React y Node.js.
+
+## ✨ Características
+
+- ✅ Crear, leer, actualizar y eliminar tareas
+- 🔄 Gestión de estados de tareas (Pendiente, En Progreso, Completada)
+- 📱 Diseño responsive y estilo moderno realizado con Bootstrap
+- 🎨 Interfaz moderna con gradientes y animaciones
+- 🔒 Validación de formularios
+- 💾 Persistencia de datos
+
+## 🚀 Inicio Rápido
+
+### Prerrequisitos
+
+- Node.js (versión 14 o superior)
+- npm (incluido con Node.js)
+- Git
+
+### 📥 Clonar el Repositorio
+
+```bash
+# Clonar el proyecto
+git clone https://github.com/jacquelineroballo/forit-challenge.git
+
+# Ingresar al directorio
+cd forit-challenge
+```
+
+### 🔧 Configuración del Backend
+
+```bash
+# Ingresar al directorio del backend
+cd backend
+
+# Instalar dependencias
+npm install
+
+# Crear archivo .env
+echo PORT=5000 > .env
+echo NODE_ENV=development >> .env
+echo CORS_ORIGIN=http://localhost:5173 >> .env
+
+# Iniciar servidor de desarrollo
+npm run dev
+```
+
+### 🎨 Configuración del Frontend
+
+```bash
+# Ingresar al directorio del frontend
+cd frontend
+
+# Instalar dependencias
+npm install
+
+# Crear archivo .env
+echo VITE_API_URL=http://localhost:5000 > .env
+
+# Iniciar servidor de desarrollo
+npm run dev
+```
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+
+- ⚛️ React - Biblioteca de UI
+- 🔄 React Router - Enrutamiento
+- ⚡ Vite - Build tool y dev server
+- 🎨 Bootstrap - Framework CSS
+- 💅 CSS Moderno - Estilos y animaciones
+
+### Backend
+
+- 🟢 Node.js - Runtime de JavaScript
+- 🚂 Express - Framework web
+- 🔄 CORS - Seguridad de recursos cruzados
+- 🔐 dotenv - Variables de entorno
+
+## 📡 API Endpoints
+
+| Método | Endpoint         | Descripción                    |
+| ------ | ---------------- | ------------------------------ |
+| GET    | `/api/tasks`     | Obtener todas las tareas       |
+| POST   | `/api/tasks`     | Crear una nueva tarea          |
+| PUT    | `/api/tasks/:id` | Actualizar una tarea existente |
+| DELETE | `/api/tasks/:id` | Eliminar una tarea             |
+
+## 📁 Estructura del Proyecto
 
 ```
-├── backend/           # Express server
-│   ├── src/
-│   │   ├── index.js   # Server entry point
-│   │   └── routes/    # API routes
-│   ├── .env           # Environment variables
-│   └── package.json
-└── frontend/          # React application
-    ├── src/
-    │   ├── components/# React components
-    │   ├── App.jsx    # Main component
-    │   └── App.css    # Styles
-    ├── .env           # Environment variables
-    └── package.json
+📦 forit-challenge
+├── 📂 backend
+│   ├── 📂 src
+│   │   ├── 📄 index.js    # Punto de entrada del servidor
+│   │   └── 📂 routes      # Rutas de la API
+│   ├── 📄 .env           # Variables de entorno
+│   └── 📄 package.json
+└── 📂 frontend
+    ├── 📂 src
+    │   ├── 📂 components  # Componentes de React
+    │   ├── 📄 App.jsx     # Componente principal
+    │   └── 📄 App.css     # Estilos
+    ├── 📄 .env           # Variables de entorno
+    └── 📄 package.json
 ```
 
-## Setup Instructions
+## 💡 Desarrollo
 
-### Backend Setup
+La aplicación utiliza un array en memoria para el almacenamiento de datos. En un entorno de producción, se recomienda reemplazar esto con una base de datos adecuada.
 
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
+## 🌐 Acceso
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Una vez iniciados ambos servidores, puedes acceder a:
 
-3. Create a `.env` file with the following content:
-   ```
-   PORT=5000
-   NODE_ENV=development
-   CORS_ORIGIN=http://localhost:5173
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file with the following content:
-   ```
-   VITE_API_URL=http://localhost:5000
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## API Endpoints
-
-- `GET /api/tasks` - Get all tasks
-- `POST /api/tasks` - Create a new task
-- `PUT /api/tasks/:id` - Update an existing task
-- `DELETE /api/tasks/:id` - Delete a task
-
-## Technologies Used
-
-- Frontend:
-  - React
-  - React Router
-  - Vite
-  - Modern CSS
-
-- Backend:
-  - Node.js
-  - Express
-  - CORS
-  - dotenv
-
-## Development
-
-The application uses an in-memory array for data storage. In a production environment, you would want to replace this with a proper database.
+- Frontend: [http://localhost:5173](http://localhost:5173)
+- Backend API: [http://localhost:5000](http://localhost:5000)

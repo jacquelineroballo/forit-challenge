@@ -14,7 +14,13 @@ app.use('/api/tasks', taskRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
-  console.error(err.stack);
+  console.error('Error details:', {
+    message: err.message,
+    stack: err.stack,
+    body: req.body,
+    path: req.path,
+    method: req.method
+  });
   res.status(500).json({ message: 'Something went wrong!' });
 });
 
