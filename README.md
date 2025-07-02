@@ -1,9 +1,11 @@
 # 📋 Administrador de Tareas
 
 <div align="center">
+    
 ![Estado del Proyecto](https://img.shields.io/badge/estado-activo-brightgreen)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
 ![Versión](https://img.shields.io/badge/versión-1.0.0-orange)
+
 </div>
 
 Aplicación full-stack para gestión de tareas construida con React y Node.js.
