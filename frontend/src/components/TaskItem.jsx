@@ -39,10 +39,10 @@ const TaskItem = ({ task, onDelete }) => {
 				</div>
 				<p className='card-text text-muted mb-3'>{description}</p>
 				<div className='d-flex justify-content-between align-items-center'>
-					<small className='text-muted'>
+					{/* <small className='text-muted'>
 						<i className='bi bi-calendar3 me-2'></i>
 						{formatDate(createdAt)}
-					</small>
+					</small> */}
 					<div className='btn-group'>
 						<Link
 							to={`/edit/${id}`}
